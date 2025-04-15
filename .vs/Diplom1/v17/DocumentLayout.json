@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Diplom1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|solutionrelative:diplom1\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|solutionrelative:diplom1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1.dal\\repos\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|solutionrelative:diplom1.dal\\repos\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1.dal\\repos\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|solutionrelative:diplom1.dal\\repos\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1.dal\\repos\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|solutionrelative:diplom1.dal\\repos\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1.dal\\repos\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|solutionrelative:diplom1.dal\\repos\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1.dal\\repos\\goodrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|solutionrelative:diplom1.dal\\repos\\goodrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1.dal\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|solutionrelative:diplom1.dal\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1.dal\\interfaces\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|solutionrelative:diplom1.dal\\interfaces\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1.dal\\interfaces\\iprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|solutionrelative:diplom1.dal\\interfaces\\iprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1.dal\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|solutionrelative:diplom1.dal\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1.dal\\interfaces\\igoodrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|solutionrelative:diplom1.dal\\interfaces\\igoodrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|solutionrelative:diplom1.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|solutionrelative:diplom1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1.dal\\migrations\\20250415183245_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE611F6-2F5F-403F-943B-34C1D87DEBE7}|Diplom1.DAL\\Diplom.DAL.csproj|solutionrelative:diplom1.dal\\migrations\\20250415183245_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\.gitignore",
+              "RelativeDocumentMoniker": "Diplom1\\.gitignore",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\.gitignore",
+              "RelativeToolTip": "Diplom1\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-04-15T19:40:05.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Repos\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Diplom1.DAL\\Repos\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Repos\\OrderRepository.cs",
+              "RelativeToolTip": "Diplom1.DAL\\Repos\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:58:00.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BasketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Repos\\BasketRepository.cs",
+              "RelativeDocumentMoniker": "Diplom1.DAL\\Repos\\BasketRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Repos\\BasketRepository.cs",
+              "RelativeToolTip": "Diplom1.DAL\\Repos\\BasketRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:54:50.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProfileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Repos\\ProfileRepository.cs",
+              "RelativeDocumentMoniker": "Diplom1.DAL\\Repos\\ProfileRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Repos\\ProfileRepository.cs",
+              "RelativeToolTip": "Diplom1.DAL\\Repos\\ProfileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:52:09.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Repos\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Diplom1.DAL\\Repos\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Repos\\UserRepository.cs",
+              "RelativeToolTip": "Diplom1.DAL\\Repos\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:50:01.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GoodRepository .cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Repos\\GoodRepository .cs",
+              "RelativeDocumentMoniker": "Diplom1.DAL\\Repos\\GoodRepository .cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Repos\\GoodRepository .cs",
+              "RelativeToolTip": "Diplom1.DAL\\Repos\\GoodRepository .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:49:03.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Interfaces\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "Diplom1.DAL\\Interfaces\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Interfaces\\IOrderRepository.cs",
+              "RelativeToolTip": "Diplom1.DAL\\Interfaces\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:47:31.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBasketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Interfaces\\IBasketRepository.cs",
+              "RelativeDocumentMoniker": "Diplom1.DAL\\Interfaces\\IBasketRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Interfaces\\IBasketRepository.cs",
+              "RelativeToolTip": "Diplom1.DAL\\Interfaces\\IBasketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:46:38.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProfileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Interfaces\\IProfileRepository.cs",
+              "RelativeDocumentMoniker": "Diplom1.DAL\\Interfaces\\IProfileRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Interfaces\\IProfileRepository.cs",
+              "RelativeToolTip": "Diplom1.DAL\\Interfaces\\IProfileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:45:27.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Diplom1.DAL\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Diplom1.DAL\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:44:21.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IGoodRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Interfaces\\IGoodRepository.cs",
+              "RelativeDocumentMoniker": "Diplom1.DAL\\Interfaces\\IGoodRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Interfaces\\IGoodRepository.cs",
+              "RelativeToolTip": "Diplom1.DAL\\Interfaces\\IGoodRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:43:31.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250415183245_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Migrations\\20250415183245_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Diplom1.DAL\\Migrations\\20250415183245_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Migrations\\20250415183245_InitialCreate.cs",
+              "RelativeToolTip": "Diplom1.DAL\\Migrations\\20250415183245_InitialCreate.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:32:47.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\Program.cs",
+              "RelativeDocumentMoniker": "Diplom1\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\Program.cs",
+              "RelativeToolTip": "Diplom1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:19:40.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\appsettings.json",
+              "RelativeDocumentMoniker": "Diplom1\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\appsettings.json",
+              "RelativeToolTip": "Diplom1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-15T18:17:11.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "Diplom1.DAL\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\AppDBContext.cs",
+              "RelativeToolTip": "Diplom1.DAL\\AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:15:03.566Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
