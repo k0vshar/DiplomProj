@@ -9,6 +9,9 @@ public enum StatusCode
 
         OrderNotFound = 20,
 
+        BasketNotFound = 30,
+        ProfileNotFound = 40,
+
         OK = 200,
         InternalServerError = 500
     }

@@ -14,5 +14,7 @@ public class User
         public Profile Profile { get; set; }
 
         public Basket Basket { get; set; }
+
+        public string Email { get; set; }
     }
 

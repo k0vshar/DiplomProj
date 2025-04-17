@@ -6,7 +6,7 @@ namespace Diplom.Service.Interfaces
 {
     public interface IGoodService
     {
-        BaseResponse<Dictionary<int, string>> GetTags();
+        Task<BaseResponse<Dictionary<int, string>>> GetTags();
 
         IBaseResponse<List<Good>> GetGoods();
 

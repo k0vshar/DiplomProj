@@ -1,10 +1,11 @@
 ﻿using System;
+using Diplom.Domain.Entities;
 
 public class Order
     {
         public long Id { get; set; }
 
-        public long? GoodId { get; set; }
+        public Good Good { get; set; }
 
         public string Address { get; set; }
 
@@ -15,6 +16,7 @@ public class Order
         public string MiddleName { get; set; }
 
         public long? BasketId { get; set; }
+        public int Quantity { get; set; }
 
         public virtual Basket Basket { get; set; }
     }

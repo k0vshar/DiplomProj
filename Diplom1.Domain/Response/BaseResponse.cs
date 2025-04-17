@@ -1,9 +1,9 @@
 ﻿namespace Diplom.Domain.Response
 {
-    public interface BaseResponse<T> : IBaseResponse<T>
+    public class BaseResponse<T> : IBaseResponse<T>
     {
-        string Description { get; }
-        public StatusCode StatusCode { get; }
-        public T Data { get; }
+        public string Description { get; set; }
+        public StatusCode StatusCode { get; set; }
+        public T Data { get; set; }
     }
 }

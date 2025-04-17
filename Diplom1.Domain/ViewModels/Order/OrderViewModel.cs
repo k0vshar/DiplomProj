@@ -13,6 +13,12 @@ namespace Diplom.Domain.ViewModels.Order
         public byte[]? Image { get; set; }
 
         public string Address { get; set; }
+        public float Price { get; set; }
+
+        public float Total { get; set; }
+
+
+        public int Quantity { get; set; }
 
         public string FirstName { get; set; }
 

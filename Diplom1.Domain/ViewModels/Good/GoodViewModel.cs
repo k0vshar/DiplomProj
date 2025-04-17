@@ -24,7 +24,9 @@ namespace Diplom.Domain.ViewModels.Good
         [Display(Name = "Тип товара")]
         [Required(ErrorMessage = "Выберите типы")]
         public Tags Tag { get; set; }
-        public Discount Discount { get; set; }
+        public float Rate { get; set; } = 0;
+        public int Quantity { get; set; } = 0;
+        public Discount? Discount { get; set; }
 
         public byte[]? Image { get; set; }
     }
