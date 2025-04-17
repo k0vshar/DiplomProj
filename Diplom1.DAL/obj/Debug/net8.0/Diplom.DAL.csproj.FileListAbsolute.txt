@@ -96,3 +96,4 @@ C:\Users\User\source\repos\Diplom1\Diplom1.DAL\obj\Debug\net8.0\refint\Diplom.DA
 C:\Users\User\source\repos\Diplom1\Diplom1.DAL\obj\Debug\net8.0\Diplom.DAL.pdb
 C:\Users\User\source\repos\Diplom1\Diplom1.DAL\obj\Debug\net8.0\Diplom.DAL.genruntimeconfig.cache
 C:\Users\User\source\repos\Diplom1\Diplom1.DAL\obj\Debug\net8.0\ref\Diplom.DAL.dll
+C:\Users\User\source\repos\Diplom1\Diplom1.DAL\obj\Debug\net8.0\Diplom.DAL.sourcelink.json
