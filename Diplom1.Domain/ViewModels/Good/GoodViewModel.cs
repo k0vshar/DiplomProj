@@ -27,7 +27,7 @@ namespace Diplom.Domain.ViewModels.Good
         public float Rate { get; set; } = 0;
         public int Quantity { get; set; } = 0;
         public Discount? Discount { get; set; }
-
+        public IFormFile Avatar { get; set; }
         public byte[]? Image { get; set; }
     }
 }

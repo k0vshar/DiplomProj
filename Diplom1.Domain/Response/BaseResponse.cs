@@ -1,4 +1,6 @@
-﻿namespace Diplom.Domain.Response
+﻿using Diplom.Domain.Enum;
+
+namespace Diplom.Domain.Response
 {
     public class BaseResponse<T> : IBaseResponse<T>
     {

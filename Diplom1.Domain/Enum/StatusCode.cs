@@ -1,5 +1,7 @@
 ﻿using System;
 
+namespace Diplom.Domain.Enum;
+
 public enum StatusCode
     {
         UserNotFound = 0,
