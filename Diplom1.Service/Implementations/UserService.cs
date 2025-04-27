@@ -1,5 +1,6 @@
 ﻿using Diplom.DAL;
 using Diplom.Domain.Entities;
+using Diplom.Domain.Enum;
 using Diplom.Domain.Response;
 using Diplom.Domain.ViewModels.User;
 using Diplom.Service.Interfaces;
