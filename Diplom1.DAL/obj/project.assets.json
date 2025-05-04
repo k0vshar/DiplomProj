@@ -2816,40 +2816,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "D:\\Soft\\VS Shared\\NuGetPackages": {}
+    "C:\\Users\\Anton\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Diplom.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Anton\\RiderProjects\\DiplomProj\\Diplom1.DAL\\Diplom.DAL.csproj",
       "projectName": "Diplom.DAL",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\Diplom.DAL.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\obj\\",
+      "projectPath": "C:\\Users\\Anton\\RiderProjects\\DiplomProj\\Diplom1.DAL\\Diplom.DAL.csproj",
+      "packagesPath": "C:\\Users\\Anton\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anton\\RiderProjects\\DiplomProj\\Diplom1.DAL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Soft\\VS Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Anton\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.Domain\\Diplom.Domain.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.Domain\\Diplom.Domain.csproj"
+            "C:\\Users\\Anton\\RiderProjects\\DiplomProj\\Diplom1.Domain\\Diplom.Domain.csproj": {
+              "projectPath": "C:\\Users\\Anton\\RiderProjects\\DiplomProj\\Diplom1.Domain\\Diplom.Domain.csproj"
             }
           }
         }
@@ -2863,8 +2855,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -2898,7 +2889,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Anton\\.dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
