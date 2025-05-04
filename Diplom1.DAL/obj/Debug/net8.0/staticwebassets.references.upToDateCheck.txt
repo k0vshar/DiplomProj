@@ -6,3 +6,6 @@ C:\Users\User\source\repos\Diplom1\Diplom1.Domain\obj\Debug\net8.0\staticwebasse
 C:\Users\User\source\repos\Diplom1\Diplom1.Domain\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\User\source\repos\Diplom1\Diplom1.Domain\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\User\source\repos\Diplom1\Diplom1.Domain\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\User\source\repos\Diplom1\Diplom1.Domain\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\User\source\repos\Diplom1\Diplom1.Domain\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\User\source\repos\Diplom1\Diplom1.Domain\obj\Debug\net8.0\staticwebassets.build.json

@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Diplom1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1\\controllers\\goodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|solutionrelative:diplom1\\controllers\\goodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|solutionrelative:diplom1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0525A07-3AEB-47ED-9B6A-176DDCC30A79}|Diplom1.Domain\\Diplom.Domain.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1.domain\\viewmodels\\good\\goodviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0525A07-3AEB-47ED-9B6A-176DDCC30A79}|Diplom1.Domain\\Diplom.Domain.csproj|solutionrelative:diplom1.domain\\viewmodels\\good\\goodviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|solutionrelative:diplom1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|solutionrelative:diplom1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1\\pages\\indexmodel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|solutionrelative:diplom1\\pages\\indexmodel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GoodViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.Domain\\ViewModels\\Good\\GoodViewModel.cs",
-              "RelativeDocumentMoniker": "Diplom1.Domain\\ViewModels\\Good\\GoodViewModel.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.Domain\\ViewModels\\Good\\GoodViewModel.cs",
-              "RelativeToolTip": "Diplom1.Domain\\ViewModels\\Good\\GoodViewModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwB0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T00:01:45.298Z",
+              "DocumentIndex": 0,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Diplom1\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\wwwroot\\js\\site.js*",
+              "RelativeToolTip": "Diplom1\\wwwroot\\js\\site.js*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwDQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-04T19:35:46.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GoodController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\Controllers\\GoodController.cs",
-              "RelativeDocumentMoniker": "Diplom1\\Controllers\\GoodController.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\Controllers\\GoodController.cs",
-              "RelativeToolTip": "Diplom1\\Controllers\\GoodController.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAqwBoAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Diplom1\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\wwwroot\\css\\site.css*",
+              "RelativeToolTip": "Diplom1\\wwwroot\\css\\site.css*",
+              "ViewState": "AgIAAFgBAAAAAAAAAAAkwHMBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-04T19:35:30.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Diplom1\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Diplom1\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T19:29:05.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IndexModel.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\Pages\\IndexModel.cshtml.cs",
+              "RelativeDocumentMoniker": "Diplom1\\Pages\\IndexModel.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\Pages\\IndexModel.cshtml.cs",
+              "RelativeToolTip": "Diplom1\\Pages\\IndexModel.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:58:26.036Z",
+              "WhenOpened": "2025-05-04T19:17:55.589Z",
               "EditorCaption": ""
             }
           ]

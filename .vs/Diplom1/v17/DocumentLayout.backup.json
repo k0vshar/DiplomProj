@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Diplom1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|solutionrelative:diplom1\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|solutionrelative:diplom1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0525A07-3AEB-47ED-9B6A-176DDCC30A79}|Diplom1.Domain\\Diplom.Domain.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1.domain\\response\\ibaseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0525A07-3AEB-47ED-9B6A-176DDCC30A79}|Diplom1.Domain\\Diplom.Domain.csproj|solutionrelative:diplom1.domain\\response\\ibaseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0525A07-3AEB-47ED-9B6A-176DDCC30A79}|Diplom1.Domain\\Diplom.Domain.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1.domain\\response\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0525A07-3AEB-47ED-9B6A-176DDCC30A79}|Diplom1.Domain\\Diplom.Domain.csproj|solutionrelative:diplom1.domain\\response\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0525A07-3AEB-47ED-9B6A-176DDCC30A79}|Diplom1.Domain\\Diplom.Domain.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1.domain\\enum\\statuscode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0525A07-3AEB-47ED-9B6A-176DDCC30A79}|Diplom1.Domain\\Diplom.Domain.csproj|solutionrelative:diplom1.domain\\enum\\statuscode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|c:\\users\\user\\source\\repos\\diplom1\\diplom1\\pages\\indexmodel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F31E270C-EEE2-418F-BC68-4B2C49FD468C}|Diplom1\\Diplom.csproj|solutionrelative:diplom1\\pages\\indexmodel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Diplom1\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\Pages\\Index.cshtml*",
+              "RelativeToolTip": "Diplom1\\Pages\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T19:29:05.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IBaseResponse.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.Domain\\Response\\IBaseResponse.cs",
-              "RelativeDocumentMoniker": "Diplom1.Domain\\Response\\IBaseResponse.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.Domain\\Response\\IBaseResponse.cs",
-              "RelativeToolTip": "Diplom1.Domain\\Response\\IBaseResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:53:00.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BaseResponse.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.Domain\\Response\\BaseResponse.cs",
-              "RelativeDocumentMoniker": "Diplom1.Domain\\Response\\BaseResponse.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.Domain\\Response\\BaseResponse.cs",
-              "RelativeToolTip": "Diplom1.Domain\\Response\\BaseResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:52:50.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StatusCode.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.Domain\\Enum\\StatusCode.cs",
-              "RelativeDocumentMoniker": "Diplom1.Domain\\Enum\\StatusCode.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.Domain\\Enum\\StatusCode.cs",
-              "RelativeToolTip": "Diplom1.Domain\\Enum\\StatusCode.cs",
+              "Title": "IndexModel.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\Pages\\IndexModel.cshtml.cs",
+              "RelativeDocumentMoniker": "Diplom1\\Pages\\IndexModel.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\Pages\\IndexModel.cshtml.cs",
+              "RelativeToolTip": "Diplom1\\Pages\\IndexModel.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:47:36.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Diplom1\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Diplom1\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwDoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:40:21.726Z",
+              "WhenOpened": "2025-05-04T19:17:55.589Z",
               "EditorCaption": ""
             }
           ]

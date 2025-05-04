@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Diplom.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b1a6a41ed8b9aa76e596aaca37ecebb5831ae5d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa3915cc0bb73cc25042239151dfb4d4f3b70484")]
 [assembly: System.Reflection.AssemblyProductAttribute("Diplom.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Diplom.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
