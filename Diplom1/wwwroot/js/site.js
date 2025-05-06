@@ -48,6 +48,10 @@ jQuery(document).ready(function ($) {
     target.parent().addClass('active');
 });
 
+//Preloader
 
+document.documentElement.classList.add("js");
+jQuery(document).ready(function($) {
+    $('#preloader').fadeOut('slow',function(){$(this).remove();});
 
-//Admin navigation script end
+});

@@ -1,7 +1,0 @@
-C:\Users\User\source\repos\Diplom1\Diplom1.Domain\obj\Debug\net8.0\Diplom1.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\source\repos\Diplom1\Diplom1.Domain\obj\Debug\net8.0\Diplom1.Domain.AssemblyInfoInputs.cache
-C:\Users\User\source\repos\Diplom1\Diplom1.Domain\obj\Debug\net8.0\Diplom1.Domain.AssemblyInfo.cs
-C:\Users\User\source\repos\Diplom1\Diplom1.Domain\obj\Debug\net8.0\Diplom1.Domain.csproj.CoreCompileInputs.cache
-C:\Users\User\source\repos\Diplom1\Diplom1.Domain\obj\Debug\net8.0\Diplom1.Domain.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\User\source\repos\Diplom1\Diplom1.Domain\obj\Debug\net8.0\Diplom1.Domain.RazorAssemblyInfo.cache
-C:\Users\User\source\repos\Diplom1\Diplom1.Domain\obj\Debug\net8.0\Diplom1.Domain.RazorAssemblyInfo.cs

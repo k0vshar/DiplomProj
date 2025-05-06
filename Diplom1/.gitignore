@@ -1,6 +1,50 @@
-﻿.vs/
+﻿## Visual Studio
+.vs/
 *.user
 *.suo
-*.vscode/
+
+## Build results
 bin/
 obj/
+
+## Rider
+.idea/
+
+## ASP.NET artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## User-specific files
+*.swp
+*.bak
+*.log
+*.tmp
+*.userprefs
+*.dbmdl
+
+## IIS Express
+.vscode/
+.vscode/*
+.vsconfig
+*.vspscc
+*.vssscc
+*.db
+*.pdb
+
+## Entity Framework
+Migrations/
+
+## Publish
+wwwroot/dist/
+wwwroot/node_modules/
+
+## Logs
+logs/
+*.log
+
+## Other
+*.ncrunch*
+_ReSharper*/
+*.DotSettings.user
+*.orig
