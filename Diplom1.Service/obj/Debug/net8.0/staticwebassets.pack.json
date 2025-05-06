@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.Service\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Diplom.Service.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Diplom.Service.11g10kqowx.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.Service\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

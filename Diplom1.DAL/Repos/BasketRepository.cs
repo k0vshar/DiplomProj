@@ -1,12 +1,10 @@
-﻿// Repos/GoodRepository.cs
-using System;
-using Diplom.DAL.Interfaces;
-using Diplom.Domain.Entities;
+﻿using Diplom.DAL.Interfaces;
+using Diplom.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace Diplom.DAL.Repos
+namespace Diplom.DAL.Repositories
 {
-    public class BasketRepository : IBasketRepository
+    public class BasketRepository : IBaseRepository<Basket>
     {
         private readonly AppDBContext _context;
 
@@ -15,32 +13,28 @@ namespace Diplom.DAL.Repos
             _context = context;
         }
 
-        public async Task<IEnumerable<Basket>> GetAllAsync() =>
-            await _context.Baskets.ToListAsync();
-
-        public async Task<Basket?> GetByIdAsync(int id) =>
-            await _context.Baskets.FindAsync(id);
-
-        public async Task AddAsync(Basket basket)
+        public async Task Create(Basket entity)
         {
-            await _context.Baskets.AddAsync(basket);
+            await _context.Baskets.AddAsync(entity);
             await _context.SaveChangesAsync();
         }
 
-        public async Task UpdateAsync(Basket basket)
+        public async Task Delete(Basket entity)
         {
-            _context.Baskets.Update(basket);
+            _context.Baskets.Remove(entity);
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(int id)
+        public IQueryable<Basket> GetAll()
         {
-            var basket = await _context.Baskets.FindAsync(id);
-            if (basket != null)
-            {
-                _context.Baskets.Remove(basket);
-                await _context.SaveChangesAsync();
-            }
+            return _context.Baskets;
+        }
+
+        public async Task<Basket> Update(Basket entity)
+        {
+            _context.Baskets.Update(entity);
+            await _context.SaveChangesAsync();
+            return entity;
         }
     }
 }

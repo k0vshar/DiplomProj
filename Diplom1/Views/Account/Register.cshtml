@@ -1,0 +1,47 @@
+﻿@model Diplom.Domain.ViewModels.Authorization.RegisterViewModel;
+
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Регистрация";
+}
+
+<div style="padding: 20px;"></div>
+
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <span class="anchor"></span>
+                    <div class="card card-account card-outline-secondary border border-white">
+                        <div class="card-header">
+                            <h3 class="mb-0 text-center paragraphHome text-black">Регистрация</h3>
+                        </div>
+                        <div class="card-body">
+                            <form asp-controller="Account" asp-action="Register" method="post">
+                                <div asp-validation-summary="All" style="font-size:23px; font-family:Impact" class="text-danger text-center"></div>
+                                <div class="form-group">
+                                    <input name="Name" class="form-control textbox-dg font-weight-bold text-center" placeholder="Login" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <input name="Email" class="form-control textbox-dg font-weight-bold text-center" placeholder="Email" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <input autocomplete="new-password" name="Password" placeholder="Password" class="form-control textbox-dg font-weight-bold text-center" type="password">
+                                </div>
+                                <span class="text-black" style="font-size: small; font-family:'Comic Sans MS'">Пароль должен быть длиной больше 6 символов и иметь только латинские символы</span>
+                                <div class="form-group">
+                                    <input autocomplete="new-password" name="PasswordConfirm" placeholder="Confirm password" class="form-control textbox-dg font-weight-bold text-center" type="password">
+                                </div>
+                                <div>
+                                    <a href="/Account/Login" class="btn btn-warning">Login</a>
+                                </div>
+                                <input class="btn btn-success btn-lg float-right" type="submit" value="Submit"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

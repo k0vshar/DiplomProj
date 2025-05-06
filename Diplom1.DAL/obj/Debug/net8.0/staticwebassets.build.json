@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yP7bU1mZ8Iy3w+hgw4VYskFvCYBy56+6kTVYM7sVLOg=",
+  "Hash": "JTX6EX6/y9SXPRNiTIM7aLRcTL+K6i6a+DZQh9+eDD4=",
   "Source": "Diplom.DAL",
   "BasePath": "_content/Diplom.DAL",
   "Mode": "Default",
@@ -35,48 +35,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Diplom.DAL.styles.css",
-      "SourceId": "Diplom.DAL",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/Diplom.DAL",
-      "RelativePath": "Diplom.DAL#[.{fingerprint}]?.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "o9ikourf5b",
-      "Integrity": "hKZdWaPRZ/fRISOBjPE+xfTKToGBuJJYKop39ZJ9bik=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Diplom.DAL.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Diplom.DAL.bundle.scp.css",
-      "SourceId": "Diplom.DAL",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/Diplom.DAL",
-      "RelativePath": "Diplom.DAL#[.{fingerprint}]!.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "cwo8ak27jn",
-      "Integrity": "DCrMDmtjzN8c7eBd6NPhVbtB9K/DeeycRO2tZplop2Y=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Diplom.DAL.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\wwwroot\\css\\site.css",
       "SourceId": "Diplom.DAL",
@@ -1336,27 +1294,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.Domain\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Diplom.Domain.bundle.scp.css",
-      "SourceId": "Diplom.Domain",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.Domain\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/Diplom.Domain",
-      "RelativePath": "Diplom.Domain#[.{fingerprint}]!.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "3nzo4okoin",
-      "Integrity": "b+7YMvhjFywMXIw8puj/TpYhp9+hkxL2yTf3YOnxvCw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.Domain\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Diplom.Domain.bundle.scp.css"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.Domain\\wwwroot\\css\\site.css",
@@ -2703,88 +2640,6 @@
       ]
     },
     {
-      "Route": "_content/Diplom.Domain/Diplom.Domain.3nzo4okoin.bundle.scp.css",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.Domain\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Diplom.Domain.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1131"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"b+7YMvhjFywMXIw8puj/TpYhp9+hkxL2yTf3YOnxvCw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:02:34 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3nzo4okoin"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-b+7YMvhjFywMXIw8puj/TpYhp9+hkxL2yTf3YOnxvCw="
-        },
-        {
-          "Name": "label",
-          "Value": "_content/Diplom.Domain/Diplom.Domain.bundle.scp.css"
-        }
-      ]
-    },
-    {
-      "Route": "_content/Diplom.Domain/Diplom.Domain.bundle.scp.css",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.Domain\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Diplom.Domain.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1131"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"b+7YMvhjFywMXIw8puj/TpYhp9+hkxL2yTf3YOnxvCw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:02:34 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-b+7YMvhjFywMXIw8puj/TpYhp9+hkxL2yTf3YOnxvCw="
-        }
-      ]
-    },
-    {
       "Route": "_content/Diplom.Domain/favicon.61n19gt1b8.ico",
       "AssetFile": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.Domain\\wwwroot\\favicon.ico",
       "Selectors": [],
@@ -2893,7 +2748,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 16:39:03 GMT"
+          "Value": "Mon, 05 May 2025 01:16:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2930,7 +2785,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 16:39:03 GMT"
+          "Value": "Mon, 05 May 2025 01:16:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7701,178 +7556,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
-        }
-      ]
-    },
-    {
-      "Route": "Diplom.DAL.bundle.scp.css",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Diplom.DAL.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1128"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DCrMDmtjzN8c7eBd6NPhVbtB9K/DeeycRO2tZplop2Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:02:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-DCrMDmtjzN8c7eBd6NPhVbtB9K/DeeycRO2tZplop2Y="
-        }
-      ]
-    },
-    {
-      "Route": "Diplom.DAL.cwo8ak27jn.bundle.scp.css",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Diplom.DAL.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1128"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DCrMDmtjzN8c7eBd6NPhVbtB9K/DeeycRO2tZplop2Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:02:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cwo8ak27jn"
-        },
-        {
-          "Name": "label",
-          "Value": "Diplom.DAL.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DCrMDmtjzN8c7eBd6NPhVbtB9K/DeeycRO2tZplop2Y="
-        }
-      ]
-    },
-    {
-      "Route": "Diplom.DAL.o9ikourf5b.styles.css",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Diplom.DAL.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1205"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hKZdWaPRZ/fRISOBjPE+xfTKToGBuJJYKop39ZJ9bik=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:02:36 GMT"
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Diplom.Domain/Diplom.Domain.3nzo4okoin.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o9ikourf5b"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hKZdWaPRZ/fRISOBjPE+xfTKToGBuJJYKop39ZJ9bik="
-        },
-        {
-          "Name": "label",
-          "Value": "Diplom.DAL.styles.css"
-        }
-      ]
-    },
-    {
-      "Route": "Diplom.DAL.styles.css",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\Diplom1\\Diplom1.DAL\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Diplom.DAL.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1205"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hKZdWaPRZ/fRISOBjPE+xfTKToGBuJJYKop39ZJ9bik=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:02:36 GMT"
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Diplom.Domain/Diplom.Domain.3nzo4okoin.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hKZdWaPRZ/fRISOBjPE+xfTKToGBuJJYKop39ZJ9bik="
         }
       ]
     },

@@ -12,11 +12,7 @@ C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\Diplom.Servi
 C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\Diplom.Service.AssemblyInfo.cs
 C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\Diplom.Service.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\Diplom.Service.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\Diplom.Service.RazorAssemblyInfo.cache
-C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\Diplom.Service.RazorAssemblyInfo.cs
-C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\scopedcss\bundle\Diplom.Service.styles.css
-C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\scopedcss\projectbundle\Diplom.Service.bundle.scp.css
 C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\staticwebassets.build.endpoints.json
@@ -26,7 +22,6 @@ C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\staticwebass
 C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Diplom.Service.props
 C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Diplom.Service.props
 C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\Diplom.Service.dll
 C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\refint\Diplom.Service.dll
 C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\Diplom.Service.pdb
@@ -104,3 +99,4 @@ C:\Users\User\source\repos\Diplom1\Diplom1.Service\bin\Debug\net8.0\Diplom.Domai
 C:\Users\User\source\repos\Diplom1\Diplom1.Service\bin\Debug\net8.0\Diplom.DAL.pdb
 C:\Users\User\source\repos\Diplom1\Diplom1.Service\bin\Debug\net8.0\Diplom.Domain.pdb
 C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\Diplom.S.599628D6.Up2Date
+C:\Users\User\source\repos\Diplom1\Diplom1.Service\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

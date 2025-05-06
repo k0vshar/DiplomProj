@@ -10,7 +10,7 @@ namespace Diplom.DAL
     {
         public AppDBContext(DbContextOptions<AppDBContext> options) : base(options)
         {
-            //Database.EnsureCreated();
+            Database.EnsureCreated();
         }
 
         public DbSet<Good> Goods { get; set; }
@@ -19,6 +19,15 @@ namespace Diplom.DAL
         public DbSet<Basket> Baskets { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Discount> Discounts { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer("Server=localhost;Database=Diplom;Trusted_Connection=True;TrustServerCertificate=True;");
+            }
+        }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -33,14 +42,16 @@ namespace Diplom.DAL
                         Id = 1,
                         Name = "Admin",
                         Password = HashPasswordHelper.HashPassword("123456"),
-                        Role = Role.Admin
+                        Role = Role.Admin,
+                        Email = "kovshar1@gmail.com"
                     },
                     new User()
                     {
                         Id = 2,
                         Name = "User",
                         Password = HashPasswordHelper.HashPassword("654321"),
-                        Role = Role.User
+                        Role = Role.User,
+                        Email = "kovshar@gmail.com"
                     }
                 });
 
@@ -67,7 +78,7 @@ namespace Diplom.DAL
                 builder.HasData(new Good
                 {
                     Id = 1,
-                    Name = "Adidas XC",
+                    Name = "dxcfgvhbn",
                     Description = new string('A', 50),
                     Tag = Tags.New,
                     Image = null

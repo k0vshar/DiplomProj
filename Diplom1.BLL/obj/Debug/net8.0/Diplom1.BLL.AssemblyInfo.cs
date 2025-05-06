@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Diplom1.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb06accf4d324913a9d7925fdd5ef209737e7407")]
 [assembly: System.Reflection.AssemblyProductAttribute("Diplom1.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Diplom1.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

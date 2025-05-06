@@ -6,41 +6,38 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Diplom.DAL.Repos
 {
-    public class UserRepository : IUserRepository
+    public class UserRepository : IBaseRepository<User>
     {
-        private readonly AppDBContext _context;
+        private readonly AppDBContext _db;
 
-        public UserRepository(AppDBContext context)
+        public UserRepository(AppDBContext db)
         {
-            _context = context;
+            _db = db;
         }
 
-        public async Task<IEnumerable<User>> GetAllAsync() =>
-            await _context.Users.ToListAsync();
-
-        public async Task<User?> GetByIdAsync(int id) =>
-            await _context.Users.FindAsync(id);
-
-        public async Task AddAsync(User user)
+        public IQueryable<User> GetAll()
         {
-            await _context.Users.AddAsync(user);
-            await _context.SaveChangesAsync();
+            return _db.Users;
         }
 
-        public async Task UpdateAsync(User user)
+        public async Task Delete(User entity)
         {
-            _context.Users.Update(user);
-            await _context.SaveChangesAsync();
+            _db.Users.Remove(entity);
+            await _db.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task Create(User entity)
         {
-            var user = await _context.Users.FindAsync(id);
-            if (user != null)
-            {
-                _context.Users.Remove(user);
-                await _context.SaveChangesAsync();
-            }
+            await _db.Users.AddAsync(entity);
+            await _db.SaveChangesAsync();
+        }
+
+        public async Task<User> Update(User entity)
+        {
+            _db.Users.Update(entity);
+            await _db.SaveChangesAsync();
+
+            return entity;
         }
     }
 }

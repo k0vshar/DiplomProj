@@ -6,41 +6,38 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Diplom.DAL.Repos
 {
-    public class OrderRepository : IOrderRepository
+    public class OrderRepository : IBaseRepository<Order>
     {
-        private readonly AppDBContext _context;
+        private readonly AppDBContext _db;
 
-        public OrderRepository(AppDBContext context)
+        public OrderRepository(AppDBContext db)
         {
-            _context = context;
+            _db = db;
         }
 
-        public async Task<IEnumerable<Order>> GetAllAsync() =>
-            await _context.Orders.ToListAsync();
-
-        public async Task<Order?> GetByIdAsync(int id) =>
-            await _context.Orders.FindAsync(id);
-
-        public async Task AddAsync(Order order)
+        public async Task Create(Order entity)
         {
-            await _context.Orders.AddAsync(order);
-            await _context.SaveChangesAsync();
+            await _db.Orders.AddAsync(entity);
+            await _db.SaveChangesAsync();
         }
 
-        public async Task UpdateAsync(Order order)
+        public IQueryable<Order> GetAll()
         {
-            _context.Orders.Update(order);
-            await _context.SaveChangesAsync();
+            return _db.Orders;
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task Delete(Order entity)
         {
-            var order = await _context.Orders.FindAsync(id);
-            if (order != null)
-            {
-                _context.Orders.Remove(order);
-                await _context.SaveChangesAsync();
-            }
+            _db.Orders.Remove(entity);
+            await _db.SaveChangesAsync();
+        }
+
+        public async Task<Order> Update(Order entity)
+        {
+            _db.Orders.Update(entity);
+            await _db.SaveChangesAsync();
+
+            return entity;
         }
     }
 }

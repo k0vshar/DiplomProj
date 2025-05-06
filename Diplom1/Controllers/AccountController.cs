@@ -9,8 +9,10 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using StatusCode = Diplom.Domain.Enum.StatusCode;
 
-namespace ShoesMarket.Controllers
+namespace Diplom.Controllers
 {
+
+    [Route("[controller]/[action]")]
     public class AccountController : Controller
     {
         private readonly IAccountService _accountService;
@@ -21,25 +23,36 @@ namespace ShoesMarket.Controllers
         }
 
         [HttpGet]
-        public IActionResult Register() => View();
+        public IActionResult Register()
+        {
+            RegisterViewModel model = new();
+
+            return View(model);
+        }
 
         [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                var response = await _accountService.Register(model);
-                if (response.StatusCode == Diplom.Domain.Enum.StatusCode.OK)
-                {
-                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
-                        new ClaimsPrincipal(response.Data));
-
-                    return RedirectToAction("Index", "Home");
-                }
-                ModelState.AddModelError("", response.Description);
+                return View(model); // Валидация не прошла — возвращаемся с ошибками
             }
+
+            var response = await _accountService.Register(model);
+            if (response.StatusCode == Diplom.Domain.Enum.StatusCode.OK)
+            {
+                await HttpContext.SignInAsync(
+                    CookieAuthenticationDefaults.AuthenticationScheme,
+                    new ClaimsPrincipal(response.Data));
+
+                return RedirectToAction("Index", "Home");
+            }
+
+            // Ошибка при регистрации, добавляем сообщение валидации
+            ModelState.AddModelError(string.Empty, response.Description);
             return View(model);
         }
+
 
         [HttpGet]
         public IActionResult Login() => View();

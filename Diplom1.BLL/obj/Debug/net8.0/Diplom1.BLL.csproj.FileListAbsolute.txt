@@ -32,3 +32,4 @@ C:\Users\User\source\repos\Diplom1\Diplom1.BLL\obj\Debug\net8.0\refint\Diplom1.B
 C:\Users\User\source\repos\Diplom1\Diplom1.BLL\obj\Debug\net8.0\Diplom1.BLL.pdb
 C:\Users\User\source\repos\Diplom1\Diplom1.BLL\obj\Debug\net8.0\Diplom1.BLL.genruntimeconfig.cache
 C:\Users\User\source\repos\Diplom1\Diplom1.BLL\obj\Debug\net8.0\ref\Diplom1.BLL.dll
+C:\Users\User\source\repos\Diplom1\Diplom1.BLL\obj\Debug\net8.0\Diplom1.BLL.sourcelink.json

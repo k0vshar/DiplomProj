@@ -18,6 +18,5 @@ public class Order
         public long? BasketId { get; set; }
         public int Quantity { get; set; }
 
-        public virtual Basket Basket { get; set; }
+        public Basket Basket { get; set; }
     }
-

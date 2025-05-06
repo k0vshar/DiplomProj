@@ -18,7 +18,7 @@ namespace Diplom.Domain.Entities
         public int Quantity { get; set; }
         public float Rate { get; set; }
         public Tags Tag { get; set; }
-        public Discount Discount { get; set; }
+        public Discount? Discount { get; set; }
     }
 }
 

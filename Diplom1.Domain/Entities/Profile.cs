@@ -8,13 +8,9 @@ namespace Diplom.Domain
 
         public byte Age { get; set; }
 
-        public string Address { get; set; }
-
         public long UserId { get; set; }
-
+        public string Address { get; set; } = "Пися";
         public User User { get; set; }
     }
 }
-
-
 

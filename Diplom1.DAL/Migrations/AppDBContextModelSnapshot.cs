@@ -23,21 +23,37 @@ namespace Diplom.DAL.Migrations
 
             modelBuilder.Entity("Basket", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("bigint");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
                     b.Property<int>("Count")
                         .HasColumnType("int");
 
-                    b.Property<int>("GoodId")
+                    b.Property<int?>("GoodId")
                         .HasColumnType("int");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Baskets");
+                    b.HasIndex("GoodId");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("Baskets", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1L,
+                            Count = 0,
+                            UserId = 1L
+                        });
                 });
 
             modelBuilder.Entity("Diplom.Domain.Entities.Discount", b =>
@@ -50,7 +66,7 @@ namespace Diplom.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Discount");
+                    b.ToTable("Discounts");
                 });
 
             modelBuilder.Entity("Diplom.Domain.Entities.Good", b =>
@@ -65,7 +81,7 @@ namespace Diplom.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("DiscountId")
+                    b.Property<int?>("DiscountId")
                         .HasColumnType("int");
 
                     b.Property<byte[]>("Image")
@@ -91,7 +107,19 @@ namespace Diplom.DAL.Migrations
 
                     b.HasIndex("DiscountId");
 
-                    b.ToTable("Goods");
+                    b.ToTable("Goods", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                            Name = "dxcfgvhbn",
+                            Price = 0f,
+                            Quantity = 0,
+                            Rate = 0f,
+                            Tag = 0
+                        });
                 });
 
             modelBuilder.Entity("Diplom.Domain.Profile", b =>
@@ -103,11 +131,15 @@ namespace Diplom.DAL.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Address")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<byte>("Age")
                         .HasColumnType("tinyint");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<long>("UserId")
                         .HasColumnType("bigint");
@@ -117,7 +149,17 @@ namespace Diplom.DAL.Migrations
                     b.HasIndex("UserId")
                         .IsUnique();
 
-                    b.ToTable("Profiles");
+                    b.ToTable("Profiles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Address = "Пися",
+                            Age = (byte)0,
+                            Email = "kovshar@gmail.com",
+                            UserId = 1L
+                        });
                 });
 
             modelBuilder.Entity("Order", b =>
@@ -135,15 +177,12 @@ namespace Diplom.DAL.Migrations
                     b.Property<long?>("BasketId")
                         .HasColumnType("bigint");
 
-                    b.Property<int>("BasketId1")
-                        .HasColumnType("int");
-
                     b.Property<string>("FirstName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<long?>("GoodId")
-                        .HasColumnType("bigint");
+                    b.Property<int>("GoodId")
+                        .HasColumnType("int");
 
                     b.Property<string>("LastName")
                         .IsRequired()
@@ -153,11 +192,16 @@ namespace Diplom.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("BasketId1");
+                    b.HasIndex("BasketId");
 
-                    b.ToTable("Orders");
+                    b.HasIndex("GoodId");
+
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("User", b =>
@@ -168,12 +212,13 @@ namespace Diplom.DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
-                    b.Property<int>("BasketId")
-                        .HasColumnType("int");
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("Password")
                         .IsRequired()
@@ -184,18 +229,49 @@ namespace Diplom.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("BasketId");
+                    b.ToTable("Users", (string)null);
 
-                    b.ToTable("Users");
+                    b.HasData(
+                        new
+                        {
+                            Id = 1L,
+                            Email = "kovshar1@gmail.com",
+                            Name = "Admin",
+                            Password = "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+                            Role = 1
+                        },
+                        new
+                        {
+                            Id = 2L,
+                            Email = "kovshar@gmail.com",
+                            Name = "User",
+                            Password = "481f6cc0511143ccdd7e2d1b1b94faf0a700a8b49cd13922a70b5ae28acaa8c5",
+                            Role = 0
+                        });
+                });
+
+            modelBuilder.Entity("Basket", b =>
+                {
+                    b.HasOne("Diplom.Domain.Entities.Good", "Good")
+                        .WithMany()
+                        .HasForeignKey("GoodId");
+
+                    b.HasOne("User", "User")
+                        .WithOne("Basket")
+                        .HasForeignKey("Basket", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Good");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Diplom.Domain.Entities.Good", b =>
                 {
                     b.HasOne("Diplom.Domain.Entities.Discount", "Discount")
                         .WithMany()
-                        .HasForeignKey("DiscountId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("DiscountId");
 
                     b.Navigation("Discount");
                 });
@@ -214,27 +290,29 @@ namespace Diplom.DAL.Migrations
             modelBuilder.Entity("Order", b =>
                 {
                     b.HasOne("Basket", "Basket")
+                        .WithMany("Orders")
+                        .HasForeignKey("BasketId");
+
+                    b.HasOne("Diplom.Domain.Entities.Good", "Good")
                         .WithMany()
-                        .HasForeignKey("BasketId1")
+                        .HasForeignKey("GoodId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Basket");
+
+                    b.Navigation("Good");
+                });
+
+            modelBuilder.Entity("Basket", b =>
+                {
+                    b.Navigation("Orders");
                 });
 
             modelBuilder.Entity("User", b =>
                 {
-                    b.HasOne("Basket", "Basket")
-                        .WithMany()
-                        .HasForeignKey("BasketId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Basket");
-                });
 
-            modelBuilder.Entity("User", b =>
-                {
                     b.Navigation("Profile")
                         .IsRequired();
                 });

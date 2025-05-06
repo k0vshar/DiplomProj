@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Diplom.DAL.Repos
 {
-    public class ProfileRepository : IProfileRepository
+    public class ProfileRepository : IBaseRepository<Profile>
     {
         private readonly AppDBContext _context;
 
@@ -16,32 +16,30 @@ namespace Diplom.DAL.Repos
             _context = context;
         }
 
-        public async Task<IEnumerable<Profile>> GetAllAsync() =>
-            await _context.Profiles.ToListAsync();
-
+        public IQueryable<Profile> GetAll()
+        {
+            return _context.Profiles;
+        }
         public async Task<Profile?> GetByIdAsync(int id) =>
             await _context.Profiles.FindAsync(id);
 
-        public async Task AddAsync(Profile profile)
+        public async Task Create(Profile profile)
         {
             await _context.Profiles.AddAsync(profile);
             await _context.SaveChangesAsync();
         }
 
-        public async Task UpdateAsync(Profile profile)
+        public async Task<Profile> Update(Profile entity)
         {
-            _context.Profiles.Update(profile);
+            _context.Profiles.Update(entity);
             await _context.SaveChangesAsync();
+            return entity;
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task Delete(Profile entity)
         {
-            var profile = await _context.Profiles.FindAsync(id);
-            if (profile != null)
-            {
-                _context.Profiles.Remove(profile);
-                await _context.SaveChangesAsync();
-            }
+            _context.Profiles.Remove(entity);
+            await _context.SaveChangesAsync();
         }
     }
 }

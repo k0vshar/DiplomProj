@@ -11,7 +11,7 @@ using Diplom.Service.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Diplom.DAL.Interfaces;
 
-namespace ShoesMarket.Service.Implementations
+namespace Diplom.Service.Implementations
 {
     public class AccountService : IAccountService
     {

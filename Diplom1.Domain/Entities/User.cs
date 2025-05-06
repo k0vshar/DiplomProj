@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using Diplom.Domain;
 
 public class User
@@ -14,7 +15,6 @@ public class User
         public Profile Profile { get; set; }
 
         public Basket? Basket { get; set; }
-
-        public string Email { get; set; }
-    }
-
+        
+        public string? Email { get; set; }
+}
