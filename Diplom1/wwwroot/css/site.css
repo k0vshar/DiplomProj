@@ -1,5 +1,8 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css");
 
+
+
+
 html {
     font-size: 14px;
 }
@@ -23,14 +26,27 @@ body {
 /*Color scheme*/
 
 :root {
-    --bs-dark: #1b1a18; 
+    --bs-dark: #1b1a18;
+
     --bs-light: #f1e3e4;
+    
     --bs-primary: #fdce00;
+    --bs-primary-rgb: 253, 206, 0;      
+    
     --bs-secondary: #f9ac15;
+    --bs-secondary-rgb: 249, 172, 21;
+    
     --bs-info: #eb8c0f;
+    --bs-info-rgb: 235, 140, 15;
+    
     --bs-success: #52c000;
+    --bs-success-rgb: 82, 192, 0;
+    
     --bs-warning: #ffc96d;
+    --bs-warning-rgb: 255, 201, 109;
+    
     --bs-danger: #f2240b;
+    --bs-danger-rgb: 242, 36, 11;
 }
 
 
@@ -375,6 +391,22 @@ i {
 /*Footer*/
 .nav-link {
     color: grey;
+}
+
+/*---------------------------*/
+
+/*Preloader*/
+
+.js div#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    
+    background: #1b1a18 no-repeat center center;
 }
 
 /*---------------------------*/
