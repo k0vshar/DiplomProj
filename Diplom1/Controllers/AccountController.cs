@@ -87,6 +87,7 @@ namespace Diplom.Controllers
             }
         }
 
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout()
         {
