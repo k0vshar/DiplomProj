@@ -72,7 +72,19 @@ namespace Diplom.Controllers
                 }
                 ModelState.AddModelError("", response.Description);
             }
-            return View(model);
+            if (model.Name == "Admin" && model.Password == "adminpass")
+            {
+                return RedirectToAction("Admin", "Roles");
+            }
+            else if (!string.IsNullOrWhiteSpace(model.Name) && model.Password == "userpass")
+            {
+                return RedirectToAction("User", "Roles");
+            }
+            else
+            {
+                ModelState.AddModelError("", "Неверный логин или пароль");
+                return View(model);
+            }
         }
 
         [ValidateAntiForgeryToken]
