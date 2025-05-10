@@ -1,0 +1,20 @@
+﻿@model List<string>
+@{
+    ViewData["Title"] = "Результаты поиска";
+}
+
+<h2>Результаты поиска для "@ViewBag.Query"</h2>
+
+@if (Model != null && Model.Any())
+{
+    <ul>
+        @foreach (var result in Model)
+        {
+            <li>@result</li>
+        }
+    </ul>
+}
+else
+{
+    <p>Ничего не найдено.</p>
+}

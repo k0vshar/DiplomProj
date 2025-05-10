@@ -7,112 +7,116 @@ using System.IO;
 
 namespace Diplom.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public class GoodController : Controller
     {
-        private readonly IGoodService _goodService;
-
-        public GoodController(IGoodService goodService)
-        {
-            _goodService = goodService;
-        }
-
-        public IActionResult Create()
+        public IActionResult Good()
         {
             return View();
         }
+        //private readonly IGoodService _goodService;
 
-        [HttpPost]
-        public async Task<IActionResult> Create(GoodViewModel model)
-        {
-            if (ModelState.IsValid)
-            {
-                byte[] imageData = null;
+        //public GoodController(IGoodService goodService)
+        //{
+        //    _goodService = goodService;
+        //}
 
-                if (model.Avatar != null)
-                {
-                    using (var binaryReader = new BinaryReader(model.Avatar.OpenReadStream()))
-                    {
-                        imageData = binaryReader.ReadBytes((int)model.Avatar.Length);
-                    }
-                }
+        //public IActionResult Create()
+        //{
+        //    return View();
+        //}
 
-                var response = await _goodService.Create(model, imageData);
+        //[HttpPost]
+        //public async Task<IActionResult> Create(GoodViewModel model)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        byte[] imageData = null;
 
-                if (response.StatusCode == Domain.Enum.StatusCode.OK)
-                {
-                    return RedirectToAction("GetGoods", "Good");
-                }
+        //        if (model.Avatar != null)
+        //        {
+        //            using (var binaryReader = new BinaryReader(model.Avatar.OpenReadStream()))
+        //            {
+        //                imageData = binaryReader.ReadBytes((int)model.Avatar.Length);
+        //            }
+        //        }
 
-                ModelState.AddModelError("", response.Description);
-            }
+        //        var response = await _goodService.Create(model, imageData);
 
-            return View(model);
-        }
+        //        if (response.StatusCode == Domain.Enum.StatusCode.OK)
+        //        {
+        //            return RedirectToAction("GetGoods", "Good");
+        //        }
 
-        [HttpGet]
-        public IActionResult GetGoods()
-        {
-            var response = _goodService.GetGoods();
-            if (response.StatusCode == Domain.Enum.StatusCode.OK)
-            {
-                return View(response.Data);
-            }
+        //        ModelState.AddModelError("", response.Description);
+        //    }
 
-            return RedirectToAction("Error");
-        }
+        //    return View(model);
+        //}
 
-        [HttpGet]
-        public async Task<IActionResult> GetGood(long id)
-        {
-            var response = await _goodService.GetGood(id);
-            if (response.StatusCode == Domain.Enum.StatusCode.OK)
-            {
-                return View(response.Data);
-            }
+        //[HttpGet]
+        //public IActionResult GetGoods()
+        //{
+        //    var response = _goodService.GetGoods();
+        //    if (response.StatusCode == Domain.Enum.StatusCode.OK)
+        //    {
+        //        return View(response.Data);
+        //    }
 
-            return RedirectToAction("Error");
-        }
+        //    return RedirectToAction("Error");
+        //}
 
-        [HttpGet]
-        public async Task<IActionResult> Edit(long id)
-        {
-            var response = await _goodService.GetGood(id);
-            if (response.StatusCode == Domain.Enum.StatusCode.OK)
-            {
-                return View(response.Data);
-            }
+        //[HttpGet]
+        //public async Task<IActionResult> GetGood(long id)
+        //{
+        //    var response = await _goodService.GetGood(id);
+        //    if (response.StatusCode == Domain.Enum.StatusCode.OK)
+        //    {
+        //        return View(response.Data);
+        //    }
 
-            return RedirectToAction("Error");
-        }
+        //    return RedirectToAction("Error");
+        //}
 
-        [HttpPost]
-        public async Task<IActionResult> Edit(long id, GoodViewModel model)
-        {
-            if (ModelState.IsValid)
-            {
-                var response = await _goodService.Edit(id, model);
-                if (response.StatusCode == Domain.Enum.StatusCode.OK)
-                {
-                    return RedirectToAction("GetGoods", "Good");
-                }
+        //[HttpGet]
+        //public async Task<IActionResult> Edit(long id)
+        //{
+        //    var response = await _goodService.GetGood(id);
+        //    if (response.StatusCode == Domain.Enum.StatusCode.OK)
+        //    {
+        //        return View(response.Data);
+        //    }
 
-                ModelState.AddModelError("", response.Description);
-            }
+        //    return RedirectToAction("Error");
+        //}
 
-            return View(model);
-        }
+        //[HttpPost]
+        //public async Task<IActionResult> Edit(long id, GoodViewModel model)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        var response = await _goodService.Edit(id, model);
+        //        if (response.StatusCode == Domain.Enum.StatusCode.OK)
+        //        {
+        //            return RedirectToAction("GetGoods", "Good");
+        //        }
 
-        [HttpPost]
-        public async Task<IActionResult> Delete(long id)
-        {
-            var response = await _goodService.DeleteGood(id);
-            if (response.StatusCode == Domain.Enum.StatusCode.OK)
-            {
-                return RedirectToAction("GetGoods");
-            }
+        //        ModelState.AddModelError("", response.Description);
+        //    }
 
-            return RedirectToAction("Error");
-        }
+        //    return View(model);
+        //}
+
+        //[HttpPost]
+        //public async Task<IActionResult> Delete(long id)
+        //{
+        //    var response = await _goodService.DeleteGood(id);
+        //    if (response.StatusCode == Domain.Enum.StatusCode.OK)
+        //    {
+        //        return RedirectToAction("GetGoods");
+        //    }
+
+        //    return RedirectToAction("Error");
+        //}
     }
 }

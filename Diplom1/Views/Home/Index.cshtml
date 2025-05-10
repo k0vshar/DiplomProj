@@ -42,34 +42,6 @@
 }
 else
 {
-    <!--
-    <div class="admin-navigation">
-
-    <nav class="navbar navbar-expand-custom navbar-mainbg">
-    <a class="navbar-brand navbar-logo" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fas fa-bars text-white"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-    <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
-    <li class="nav-item active">
-    <a class="nav-link" href="javascript:void(0);">Account</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link" href="javascript:void(0);">My goods</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link" href="javascript:void(0);">Stats</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link" href="javascript:void(0);">History</a>
-    </li>
-    </ul>
-    </div>
-    </nav>
-    </div>
-    -->
     <header class="p-3 bg-dark">
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -83,9 +55,10 @@ else
                     <li><a href="#" class="nav-link px-2 text-white">Link 3</a></li>-->
                 </ul>
 
-                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-                    <input type="search" class="form-control form-control-dark bg-dark" placeholder="Search..." aria-label="Search">
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search" method="get" action="/Search/Search">
+                    <input type="search" name="query" class="form-control form-control-dark bg-dark" placeholder="Search..." aria-label="Search">
                 </form>
+
                 <form class="">
                     <div class="text-end">
                         <a href="/Account/Register" class="btn btn-warning">Sign-up</a>
@@ -110,7 +83,7 @@ else
                         <div class="carousel-caption text-start">
                             <h1>Headline 1</h1>
                             <p class="opacity-75">First slide</p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                            <p><a href="/Good/Good" class="btn btn-lg btn-primary" >Learn more</a></p>
                         </div>
                     </div>
                 </div>
@@ -157,7 +130,7 @@ else
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <a href="/Good/Good" class="btn btn-sm btn-outline-secondary">View</a>
                                 </div>
                                 <small class="text-body-secondary">The rate will be here, but I'm lasy</small>
                             </div>
